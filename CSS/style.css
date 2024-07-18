@@ -1,0 +1,104 @@
+html{
+  background-color: black;
+  color: white;
+}
+
+.main-title {
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-content {
+  flex: 1;
+  padding: 12px;
+}
+
+.right-content {
+  flex: 1;
+  padding: 12px;
+}
+
+.input-jk {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form{
+    background-color: azure;
+    color: black;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.button {
+    height: 32px;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color:cornflowerblue;
+    border: 2px solid aliceblue;
+    color: white;
+}
+
+.reset {
+    background-color: aliceblue;
+    border: 2px solid cornflowerblue;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus{
+    border: 3px solid #555;
+}
+
+.result-selection{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.general-content{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.download{
+  margin-block-start: 2em;
+  text-align: center;
+  color: white;
+}
+
+img{
+  width: 14em;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: row; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    flex-direction: column; 
+}
